@@ -28,6 +28,7 @@ const Home: NextPage = (props) => {
       </Head>
       <Box h="calc(100vh)" w="full">
         <Stack w="full" h="calc(100vh)" justify="center">
+        {/* <Stack w="full" h="calc(100vh)" justify="center"> */}
           <AppBar />
           <div className={styles.AppBody}>
             {wallet.connected ? (
