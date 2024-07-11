@@ -20,6 +20,7 @@ const Home: NextPage = (props) => {
   const [counter, setCounter] = useState("")
   const [transactionUrl, setTransactionUrl] = useState("")
   const wallet = useWallet()
+  // const wallet = useWallet()
 
   return (
     <div className={styles.App}>
